@@ -130,7 +130,7 @@ cryptage stegano-extraire sortie.bmp
 ## Structure
 
 ```
-python/
+cryptography/
 ├── pyproject.toml
 ├── README.md          ← ce fichier (équivalent README.txt)
 ├── HELP.md            ← guide de lecture (équivalent HELP.txt)
