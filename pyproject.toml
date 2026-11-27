@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cryptage"
+version = "1.0.0"
+description = "Portage Python moderne du TPE Cryptage (Visual Basic 6, 2004)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Mistral Large 4" },
+]
+
+[project.scripts]
+cryptage = "cryptage.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
