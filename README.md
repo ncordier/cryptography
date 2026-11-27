@@ -1,12 +1,6 @@
 # Cryptage — portage Python moderne
 
-> Portage en Python 3.10+ du TPE « Cryptage » réalisé en Visual Basic 6
-> par **Mathias Ke.** (2004), avec corrections de Nicolas Co.
-> Le projet original est dans le dossier parent (`Cryptage.exe`, listings
-> `.rtf`, descriptions `.txt`, DLLs VB6, images BMP).
-
-Ce logiciel n'installe rien sur votre ordinateur et est garanti exempt de
-tout virus connu à ce jour. 😄
+> Portage en Python du TPE « Cryptage » réalisé en Visual Basic 6 en 2004.
 
 ---
 
