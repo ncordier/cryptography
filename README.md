@@ -53,7 +53,7 @@ cryptage rsa-gen --min 1000 --max 9999
 cryptage rsa-crypter "ABC" --e <E> --n <N>
 cryptage rsa-decrypter "…" --d <D> --n <N>
 
-cryptage stegano-cacher ../ballon.bmp "message caché" -o sortie.bmp
+cryptage stegano-cacher colline_verdoyante.bmp "message caché" -o sortie.bmp
 cryptage stegano-extraire sortie.bmp
 ```
 
