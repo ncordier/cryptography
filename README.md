@@ -1,5 +1,7 @@
 # Cryptage — portage Python moderne
 
+[![Build status][build-image]][build-link]
+
 > Portage en Python du TPE « Cryptage » réalisé en Visual Basic 6 en 2004.
 
 ---
@@ -156,3 +158,8 @@ cryptography/
 │   └── cli.py
 └── tests/             ← 66 tests (pytest)
 ```
+
+<!-- Definitions for badges -->
+
+[build-link]: <https://github.com/ncordier/cryptography/actions>
+[build-image]: <https://github.com/ncordier/cryptography/actions/workflows/python-app.yml/badge.svg>
